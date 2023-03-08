@@ -1,0 +1,325 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;800&display=swap');
+
+  p {
+    font-family: 'Inter';
+    font-style: normal;
+    line-height: 24px;
+    color: #000000;
+    margin: 0;
+  }
+  
+  span{
+  font-family: 'Inter';
+  font-style: normal;
+  line-height: 19px;
+  
+  }
+  
+  h4{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 0.06em;
+    color: #000000;
+  }
+
+  .left-side-row {
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  
+  .profile {
+  min-height: 150px;
+  }
+  
+  .profile img{
+    width: 55px;
+    height: 55px;
+    border-radius: 10px;
+  }
+
+  .profile-name p{
+font-size: 16px;
+font-weight: 600;
+letter-spacing: 0em;
+text-align: left;
+  }
+
+  .profile-name span {
+font-size: 13px;
+font-weight: 400;
+line-height: 19px;
+text-align: left;
+color: rgba(0, 0, 0, 0.64);
+  }
+  .app-list {
+    min-height: 300px;
+  }
+  .app p{
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.06em;
+text-align: left;
+color: rgba(0, 0, 0, 0.64);
+  }
+  .app span{
+    color: rgba(0, 0, 0, 0.46);
+font-size: 14px;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0.06em;
+text-align: left;
+
+  }
+  .bottom-btn{
+    margin-top: 120px;
+  }
+  
+  .bottom-btn button{
+    padding: 10px 65px 10px 65px;
+    border: 1px solid #CDCDCD;
+    border-radius: 10px;
+    font-family: 'Inter';
+    font-weight: 600;
+    text-align: center;
+    color: #000000;
+  }
+  
+  .profile-name{
+    margin-left:65px; 
+    margin-top:-50px;
+  }
+  
+  .app{
+    margin-bottom: 12px;
+  }
+  
+  .mark-img{
+    margin-left:180px; 
+    margin-top: -40px;
+    margin-bottom: 20px;
+  }
+  
+  .mark-img img{
+    width: 20px;
+    height: 20px;
+  }
+  .active-app{
+    background: #000000;
+    border-radius: 20px 0px 0px 20px;
+    padding: 10px 12px 10px 12px;
+  }
+  
+  .active-app p{
+    color: #ffffff;
+  }
+
+  .active-app p{
+    font-weight: 600;
+  }
+
+  .active-app span {
+    color: rgba(255, 255, 255, 0.8);
+  }
+  
+  .middle {
+    margin-left: 20px;
+  }
+  
+  .title{
+    padding-bottom: 25px;
+  }
+
+  .title p{
+font-size: 18px;
+font-weight: 400;
+line-height: 29px;
+letter-spacing: 0.06em;
+text-align: left;
+  }
+
+  .title-details{
+    padding-bottom: 7px;
+  }
+
+  .title-details .btn{
+    font-family: 'Inter';
+    padding-top: 0.5px;
+    padding-bottom: 0.5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 10px;
+    border: 1px solid #F0F0F0;
+border-radius: 3px;
+  }
+  
+  .title-details span{
+font-weight: 400;
+font-size: 12px;
+letter-spacing: 0.03em;
+color: rgba(0, 0, 0, 0.48);
+  }
+
+  .title-details p{
+    font-size: 12px;
+    color: #1BA339;
+    font-weight: 400;
+  }
+  .environments{
+    padding-top: 10px;
+  }
+  .environments .active {
+    font-size: 15px;
+    font-weight: 700;
+    color: #000000;
+  }
+
+  .environments span {
+    font-weight: 400;
+    color: #989898;
+    margin-right: 75px;
+  }
+  
+  .environments .btn{
+    padding-top: 0.5px;
+    padding-bottom: 0.5px;
+    font-size: 12px;
+font-family: 'Inter';
+letter-spacing: 0.03em;
+font-weight: 600;
+color: #989898;
+border: 1px solid #F0F0F0;
+border-radius: 3px;
+  }
+  
+  .env-info-title span, .env-info-details span{
+    margin-right: 90px;
+    color: rgba(0, 0, 0, 0.46);
+    font-size: 12px;
+    font-weight: 400;
+  }
+  
+  .env-info-details span{
+    font-weight: 500;
+    font-size: 12px;
+    color: #000000;
+  }
+  
+  .env-info-details img{
+    width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  }
+  .env-info-details{
+    margin-bottom: 30px;
+  }
+  .code{
+font-weight: 400;
+font-size: 13px;
+line-height: 19px;
+letter-spacing: 0.03em;
+
+color: rgba(0, 0, 0, 0.46);
+  }
+
+  .rects {
+    width: 545px;
+    height: 100px;
+    border: 1px solid #F1F1F1;
+    border-radius: 16px;
+  }
+  
+  .build-status span{
+    color: red;
+font-size: 13px;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0.03em;
+text-align: left;
+
+  }
+  
+  .build-bar {
+    width: 545px;
+    height: 10px;
+    border: 1px solid #F1F1F1;
+    background-color: red;
+  }
+  
+  .build-time span{
+    margin-right: 40px;
+    font-weight: 500px;
+    color: rgba(0, 0, 0, 0.64);
+  }
+  
+  .right-side{
+    margin-left: 20px;
+  }
+
+  .left-chevron{
+    border: 0;
+    background-color: white;
+    
+margin-left: 10px;
+  }
+
+  .right-chevron{
+    border: 0;
+    background-color: white;
+    
+margin-left: 15px;
+  }
+.code-details{
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+  .file-name{
+width: 100px;
+height: 30px;
+background: #F1F1F1;
+border-radius: 4px;
+border: 1px solid #F1F1F1;
+margin-left: 15px;
+  }
+
+  .right-side p{
+font-weight: 400;
+font-size: 14px;
+line-height: 19px;
+letter-spacing: 0.02em;
+color: #000000;
+  }
+
+  .day{
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.06em;
+
+color: rgba(0, 0, 0, 0.24);
+  }
+
+  .app-his p{
+  
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+letter-spacing: 0.06em;
+
+color: rgba(0, 0, 0, 0.64);
+  }
+
+  .app-his span{
+font-weight: 400;
+font-size: 12px;
+letter-spacing: 0.06em;
+
+color: rgba(0, 0, 0, 0.46);
+  }
